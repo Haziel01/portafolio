@@ -9,9 +9,9 @@
 
 body{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: black;
-    overflow: hidden;
+
 }
 
 nav{
@@ -35,8 +35,8 @@ nav{
 }
 
 .logo span{
-    color: rgb(211, 3, 3);
-    text-shadow: 0 0 10px rgb(211, 3, 3);;
+    color: rgb(86, 211, 3);
+    text-shadow: 0 0 10px rgb(86, 211, 3);
 }
 
 .hamburg,
@@ -64,8 +64,8 @@ nav{
 }
 
 .nav-container .links a:hover{
-    color: rgb(211, 3, 3);
-    border-bottom: 2px solid rgb(211, 3, 3);
+    color: rgb(86, 211, 3);
+    border-bottom: 2px solid rgb(86, 211, 3);
 }
 
 .dropdown{
@@ -91,7 +91,7 @@ nav{
 }
 
 .dropdown .links a:hover{
-    background-color: rgb(211, 3, 3);
+    background-color: rgb(86, 211, 3);
 }
 
 section{
@@ -119,8 +119,8 @@ section{
 
 .content h1 span{
     font-weight: 700;
-    text-shadow: 0 0 10px rgb(211, 3, 3);
-    color: rgb(211, 3, 3);
+    text-shadow: 0 0 10px rgb(86, 211, 3);
+    color: rgb(86, 211, 3);
 }
 
 .content .typewriter{
@@ -129,13 +129,18 @@ section{
 }
 
 .typewriter span{
-    color: rgb(211, 3, 3);
-    text-shadow: 0 0 10px rgb(211, 3, 3);
+    color: rgb(86, 211, 3);
+    text-shadow: 0 0 10px rgb(86, 211, 3);
 }
 
 .content p{
-    font-size: clamp(0,4rem, 0.2rem + 9vw, 1rem);
-    margin: 10px 0;
+    font-size: clamp(0.4rem, 0.2rem + 9vw, 1rem);
+    margin: 50px 0 30px 0;
+}
+
+.content p b{
+    font-size: 1.1rem;
+    text-shadow: 0 0 5px rgb(86, 211, 3);
 }
 
 .social-links i{
@@ -145,9 +150,9 @@ section{
     width: 3rem;
     height: 3rem;
     background-color: transparent;
-    border: 0.2rem solid rgb(211, 3, 3);
+    border: 0.2rem solid rgb(86, 211, 3);
     border-radius: 50%;
-    color: rgb(211, 3, 3);
+    color: rgb(86, 211, 3);
     margin: 0 15px;
     font-size: 1.5rem;
     transition: 0.2s linear;
@@ -155,16 +160,16 @@ section{
 
 .social-links i:hover{
     scale: 1.3;
-    filter: drop-shadow(0 0 10px rgb(211, 3, 3));
+    filter: drop-shadow(0 0 10px rgb(86, 211, 3));
     color: black;
-    background-color: rgb(211, 3, 3);
+    background-color: rgb(86, 211, 3);
 }
 
 .content button{
     width: 50%;
     height: 6vh;
     margin: 30px;
-    background-color: rgb(211, 3, 3);
+    background-color: rgb(86, 211, 3);
     color: white;
     border: none;
     outline: none;
@@ -176,11 +181,11 @@ section{
 
 .content button:hover{
     scale: 1.1;
-    color: rgb(211, 3, 3);
-    border: 2px solid rgb(211, 3, 3);
+    color: rgb(86, 211, 3);
+    border: 2px solid rgb(86, 211, 3);
     background-color: transparent;
     font-weight: 700;
-    box-shadow: 0 0 40px 5px rgb(211, 3, 3);
+    box-shadow: 0 0 40px 5px rgb(86, 211, 3);
 }
 
 .main-container .image{
@@ -188,7 +193,7 @@ section{
     height: 80vh;
     border-radius: 100%;
     overflow: hidden;
-    box-shadow: 0 0 50px rgb(211, 3, 3);
+    box-shadow: 0 0 50px rgb(86, 211, 3);
 }
 
 .main-container .image img{

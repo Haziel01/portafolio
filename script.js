@@ -10,11 +10,7 @@ function cancel(){
 
 //For typewriter effect
 
-const texts = [
-    "DEVELOPER",
-    "DESIGNER",
-    "CODER"
-]
+const texts = ["WEB DEVELOPER", "UI/UX DESIGNER", "CODER"];
 
 let speed = 100;
 
